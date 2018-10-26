@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'taller3';
+  title = 'taller4';
   lat: number = 51.678418;
   lng: number = 7.809007;
+  static API_URL="http://localhost:8080";
 }
